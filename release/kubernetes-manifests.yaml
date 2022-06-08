@@ -221,7 +221,7 @@ spec:
       serviceAccountName: default
       containers:
         - name: server
-          image: 3pings/hipster-frontend:latest
+          image: 3pings/hipster-frontend:new-stars
           ports:
           - containerPort: 8080
           readinessProbe:
