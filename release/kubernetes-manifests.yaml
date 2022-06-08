@@ -221,7 +221,7 @@ spec:
       serviceAccountName: default
       containers:
         - name: server
-          image: gcr.io/spectro-common-dev/saamalik/hipster/frontend:latest-black
+          image: 3pings/hipster-frontend:new-stars
           ports:
           - containerPort: 8080
           readinessProbe:
